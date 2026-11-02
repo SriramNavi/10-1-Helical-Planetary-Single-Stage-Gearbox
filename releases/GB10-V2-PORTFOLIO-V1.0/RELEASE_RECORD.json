@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "release_identifier": "GB10-V2-PORTFOLIO-V1.0",
+  "status": "VERIFIED_SOURCE_RELEASE_FROZEN",
+  "record_date": "2026-11-02",
+  "record_timezone": "Asia/Calcutta",
+  "copyright": "Copyright (c) 2026 SriramNavi",
+  "record_license": "CC-BY-4.0",
+  "repository": "https://github.com/SriramNavi/10-1-Helical-Planetary-Single-Stage-Gearbox",
+  "release_url": "https://github.com/SriramNavi/10-1-Helical-Planetary-Single-Stage-Gearbox/releases/tag/GB10-V2-PORTFOLIO-V1.0",
+  "source_commit": "235d2cc652d954d7b655e3e5c35c3035e5bfc473",
+  "source_tree": "277db76cf1793f9f86bc520e391a62bbff993b25",
+  "source_tag_object": "75b927fa584f49cae0794846aa65ea2f0a532674",
+  "source_tag": "GB10-V2-PORTFOLIO-V1.0",
+  "github_published_at": "2026-11-02T16:04:00Z",
+  "source_manifest": {
+    "path": "PUBLICATION_MANIFEST.json",
+    "sha256": "11c5422ae8de6026043c581c7a9b282e82dd6784d9c348c313343645cc506ae8"
+  },
+  "artifacts": [
+    {
+      "name": "GB10-V2-PORTFOLIO-V1.0.zip",
+      "url": "https://github.com/SriramNavi/10-1-Helical-Planetary-Single-Stage-Gearbox/releases/download/GB10-V2-PORTFOLIO-V1.0/GB10-V2-PORTFOLIO-V1.0.zip",
+      "size": 5231792,
+      "sha256": "a617dfd27aa6679cb58fe26b9cdb463863624063bbbd44dbfacabdb1f8af9d50"
+    },
+    {
+      "name": "PUBLICATION_MANIFEST.json",
+      "url": "https://github.com/SriramNavi/10-1-Helical-Planetary-Single-Stage-Gearbox/releases/download/GB10-V2-PORTFOLIO-V1.0/PUBLICATION_MANIFEST.json",
+      "size": 12756,
+      "sha256": "11c5422ae8de6026043c581c7a9b282e82dd6784d9c348c313343645cc506ae8"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/SriramNavi/10-1-Helical-Planetary-Single-Stage-Gearbox/releases/download/GB10-V2-PORTFOLIO-V1.0/SHA256SUMS.txt",
+      "size": 187,
+      "sha256": "dbcac3562ff5b41c9c1fca0fa995bfedbd61c3aeb7bddcb3d66a0ee2bd410449"
+    }
+  ],
+  "licenses": {
+    "public_source_code": "MIT",
+    "public_documentation_figures": "CC-BY-4.0",
+    "scope": "LICENSE_SCOPE.md",
+    "attribution": "ATTRIBUTION.md",
+    "third_party_materials": "THIRD_PARTY_NOTICES.md; not relicensed",
+    "private_native_CAD_FEA_and_unpublished_assets": "All rights reserved; excluded"
+  },
+  "verification": {
+    "source_files": 82,
+    "analytical_tests_passed": 62,
+    "report_pages": 19,
+    "summary_pages": 1,
+    "prior_protected_files_preserved": 2548,
+    "release_gate_checks": {
+      "portable_tests_62": true,
+      "pdf_text_layout": true,
+      "desktop_mobile": true,
+      "local_links_figures": true,
+      "engineering_values_inputs_and_figures_unchanged": true,
+      "code_changes_notices_only": true,
+      "private_assets_secrets_excluded": true,
+      "approval_status_current": true,
+      "license_files_complete": true,
+      "mit_text_and_owner": true,
+      "cc_notice_and_private_reservation": true,
+      "prior_evidence_2548_preserved": true,
+      "archive_crc": true,
+      "archive_source_hashes": true
+    },
+    "remote_checks": {
+      "public_correct_repository": true,
+      "main_matches_local_commit": true,
+      "annotated_tag_matches_commit": true,
+      "remote_exact_whitelist": true,
+      "all_remote_blob_bytes_match": true,
+      "no_symlink_or_private_native_files": true,
+      "license_notices_retrieved_and_exact": true,
+      "published_release": true,
+      "only_expected_release_assets": true,
+      "downloaded_release_assets_exact": true,
+      "downloaded_zip_crc": true,
+      "downloaded_zip_exact_paths": true,
+      "downloaded_zip_manifest_sha256": true
+    },
+    "prior_exception": "Approved Phase3 GEN content/MAS timestamp exception retained; no new exception",
+    "new_FEA_solves": 0
+  },
+  "engineering_decision": {
+    "decision": "RETAIN ORIGINAL BASELINE",
+    "teeth_sun_planet_ring": [
+      12,
+      48,
+      108
+    ],
+    "nominal_ratio": 10,
+    "static_body_diameter_mm": 79.681688,
+    "body_thickness_mm": 39.5,
+    "thickness_note": "Excludes documented shaft projections",
+    "maximum_body_envelope_mm": [
+      80,
+      40
+    ],
+    "matched_hypothetical_output_torque_N_m": 0.15,
+    "predicted_peak_stress_MPa": {
+      "baseline": 15.1567,
+      "R0.20_mm": 15.5914,
+      "R0.35_mm": 15.6129
+    },
+    "interpretation": "Both candidates increased predicted stress; neither met the provisional 5% improvement criterion."
+  },
+  "known_limitations": [
+    "No certified torque rating, qualified operating envelope or physical validation.",
+    "No measured efficiency or demonstrated durability.",
+    "Material allowables, bearing capacity/compliance, contacts and operating duty remain unqualified.",
+    "Numerical conclusions depend on documented loads, restraints and constitutive assumptions."
+  ],
+  "future_research_questions": [
+    "Qualify printed material strength, anisotropy, creep and temperature dependence.",
+    "Establish real bearing/contact/load-path behavior and assembly tolerances.",
+    "Measure efficiency, backlash, stiffness, thermal behavior and durability only after separate test approval.",
+    "Derive actuator motor, joint torque-speed, duty and controller requirements independently."
+  ],
+  "freeze_mechanism": {
+    "source": "Content-addressed Git commit and annotated tag; SHA-256 release asset checksums.",
+    "record": "Administrative record added after source verification; source tag and assets unchanged.",
+    "github_release_immutable_property_at_verification": false,
+    "qualification": "GitHub release is not server-enforced immutable. Checksums and Git objects make changes detectable."
+  },
+  "scope": {
+    "live_portfolio_website_modified_or_deployed": false,
+    "private_native_assets_distributed": false,
+    "project_02_implementation_started": false
+  }
+}
