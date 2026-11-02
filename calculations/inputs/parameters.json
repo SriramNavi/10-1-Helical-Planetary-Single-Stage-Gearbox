@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "unit_system": "SI: m kg s rad N Pa W",
+  "baseline": {
+    "zs": 12,
+    "zp": 48,
+    "zr": 108,
+    "planets": 3,
+    "mn": 0.00058,
+    "alpha_n": 0.3490658503988659,
+    "beta": 0.3490658503988659,
+    "width": 0.0072,
+    "ha": 0.8,
+    "hf": 1.2,
+    "backlash_sp": 0.0002,
+    "backlash_pr": 0.0002
+  },
+  "constraints": {
+    "max_diameter_m": 0.08,
+    "max_proper_axial_m": 0.04,
+    "observed_radial_bound_m": 0.07968168788583208,
+    "observed_proper_axial_m": 0.03950000000000001,
+    "mass_limit_kg": null
+  },
+  "actual_unknowns": {
+    "material_E_Pa": null,
+    "material_G_Pa": null,
+    "root_service_allowable_Pa": null,
+    "contact_service_allowable_Pa": null,
+    "shaft_service_allowable_Pa": null,
+    "fatigue_SN": null,
+    "creep_law": null,
+    "thermal_limit_K": null,
+    "continuous_input_torque_Nm": null,
+    "continuous_input_speed_rad_s": null,
+    "peak_duration_s": null,
+    "duty_cycle": null,
+    "efficiency_requirement": null,
+    "backlash_requirement_rad": null,
+    "stiffness_requirement_Nm_rad": null,
+    "bearing_maker_confirmed": false,
+    "bearing_C_N": null,
+    "bearing_C0_N": null,
+    "bearing_dynamic_X": null,
+    "bearing_dynamic_Y": null,
+    "bearing_rotation_V": null,
+    "bearing_moment_capacity_Nm": null,
+    "bearing_life_requirement_h": null,
+    "mesh_stiffness_N_m": null,
+    "bearing_stiffness_N_m": null,
+    "housing_compliance_rad_Nm": null,
+    "temperature_dependent_material": null
+  },
+  "geometry_surrogates": {
+    "input_bearing_centers_m": [
+      -0.0101,
+      -0.0041
+    ],
+    "mesh_load_plane_m": 0.0036,
+    "output_bearing_center_m": 0.021,
+    "journal_diameter_m": 0.00695,
+    "pin_root_plane_m": -0.0008,
+    "pin_effective_length_m": 0.0044,
+    "input_equivalent_core_diameter_m": 0.0058,
+    "input_effective_torsion_length_m": 0.0216,
+    "output_equivalent_core_diameter_m": 0.0058,
+    "output_effective_torsion_length_m": 0.0133,
+    "support_model": "Uniform isotropic input overhung beam and rear-clamped planet pin; pilot clearance/contact not solved",
+    "core_model": "Circular-core surrogate omits cross holes/notches and real hex contact; effective lengths approximate"
+  },
+  "reference_screen": {
+    "label": "HYPOTHETICAL / historical screen comparison, NOT material qualification or safe duty",
+    "input_torque_Nm": 0.01,
+    "input_speed_rad_s": 10.0,
+    "application_factor": 1.5,
+    "Kgamma": 2.0,
+    "E_Pa": 1200000000.0,
+    "nu": 0.35,
+    "Y_sun": 0.25,
+    "Y_planet": 0.25,
+    "Y_ring": null,
+    "face_factor": 1.0,
+    "root_safety_factor": 2.0,
+    "contact_pressure_safety_factor": 1.25,
+    "shaft_safety_factor": 2.0,
+    "hypothetical_root_service_allowable_Pa": 10000000.0,
+    "hypothetical_contact_service_allowable_Pa": 20000000.0,
+    "hypothetical_shaft_service_allowable_Pa": 10000000.0,
+    "bearing_axial_split": 0.5,
+    "eta_sp": 0.98,
+    "eta_pr": 0.98,
+    "input_drag_Nm_each": 0.0001,
+    "planet_drag_Nm_each": 0.0001,
+    "output_drag_Nm": 0.0001,
+    "viscous_equiv_Nm_s": 0.0,
+    "hypothetical_temperature_rise_budget_K": 20.0
+  },
+  "exploration_not_requirements": {
+    "input_torque_Nm": [
+      0.0,
+      0.001,
+      0.01,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "input_speed_rad_s": [
+      0.0,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "Kgamma": [
+      1.0,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "E_Pa": [
+      600000000.0,
+      1200000000.0,
+      2400000000.0
+    ],
+    "Y_sun": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "root_service_allowable_Pa": [
+      5000000.0,
+      10000000.0,
+      20000000.0
+    ],
+    "contact_service_allowable_Pa": [
+      10000000.0,
+      20000000.0,
+      40000000.0
+    ],
+    "shaft_service_allowable_Pa": [
+      5000000.0,
+      10000000.0,
+      20000000.0
+    ],
+    "face_factor": [
+      1.0,
+      1.5
+    ],
+    "notch_factor": [
+      1.0,
+      1.5,
+      2.5
+    ],
+    "axial_split": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "eta_each_mesh": [
+      0.95,
+      0.98,
+      0.995
+    ],
+    "bearing_drag_Nm_each": [
+      1e-05,
+      0.0001,
+      0.001
+    ]
+  },
+  "historical_comparators_not_certificates": {
+    "bearing_C_N": 2340.0,
+    "bearing_C0_N": 950.0,
+    "lewis_reference_Pa": 2586461.831114603,
+    "transverse_hertz_reference_Pa": 9044526.624176983,
+    "contact_ratio_sp": 1.2004794431971255,
+    "contact_ratio_pr": 1.3976758377653347,
+    "overlap_ratio": 1.3514697048979538
+  }
+}

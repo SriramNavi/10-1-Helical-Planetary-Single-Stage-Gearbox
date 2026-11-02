@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="856.8pt" height="365.722031pt" viewBox="0 0 856.8 365.722031" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T18:47:00.872901</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 365.722031 
+L 856.8 365.722031 
+L 856.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 156.681091 164.198667 
+L 231.421636 164.198667 
+L 231.421636 125.625333 
+L 156.681091 125.625333 
+L 156.681091 164.198667 
+z
+" clip-path="url(#pea2e82463a)" style="fill: none; stroke: #087f8c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 156.681091 249.06 
+L 231.421636 249.06 
+L 231.421636 210.486667 
+L 156.681091 210.486667 
+L 156.681091 249.06 
+z
+" clip-path="url(#pea2e82463a)" style="fill: none; stroke: #087f8c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 44.570273 144.912 
+L 343.532455 144.912 
+" clip-path="url(#pea2e82463a)" style="fill: none; stroke: #88959d; stroke-width: 8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 44.570273 229.773333 
+L 343.532455 229.773333 
+" clip-path="url(#pea2e82463a)" style="fill: none; stroke: #88959d; stroke-width: 8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="194.051364" y="114.053333" transform="rotate(-0 194.051364 114.053333)">Radial + axial journal restraint</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="194.051364" y="198.914667" transform="rotate(-0 194.051364 198.914667)">Radial-only journal restraint</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #183548" transform="translate(25.885136 288.007521)">Same geometry, unequal planet loads and coarse mesh.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; fill: #183548" transform="translate(25.885136 299.205333)">No calibrated bearing stiffness or pure-moment capacity is assigned.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="194.051364" y="69.48" transform="rotate(-0 194.051364 69.48)">Support idealizations on finite journal band</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 475.897273 306.92 
+L 849.6 306.92 
+L 849.6 75.48 
+L 475.897273 75.48 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 492.88376 306.92 
+L 643.874761 306.92 
+L 643.874761 163.692175 
+L 492.88376 163.692175 
+z
+" clip-path="url(#p6bc27863e7)" style="fill: #183548"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 681.622511 306.92 
+L 832.613512 306.92 
+L 832.613512 114.896621 
+L 681.622511 114.896621 
+z
+" clip-path="url(#p6bc27863e7)" style="fill: #cb651c"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_3">
+      <defs>
+       <path id="mcfb87edee5" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mcfb87edee5" x="568.379261" y="306.92" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="568.379261" y="321.518437" transform="rotate(-0 568.379261 321.518437)">Radial + axial</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mcfb87edee5" x="757.118012" y="306.92" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="757.118012" y="321.518437" transform="rotate(-0 757.118012 321.518437)">Radial only</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="mced93b7026" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="306.92" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="310.719219" transform="rotate(-0 468.897273 310.719219)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="276.061333" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="279.860552" transform="rotate(-0 468.897273 279.860552)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="245.202667" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="249.001885" transform="rotate(-0 468.897273 249.001885)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="214.344" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="218.143219" transform="rotate(-0 468.897273 218.143219)">3</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="183.485333" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="187.284552" transform="rotate(-0 468.897273 187.284552)">4</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="152.626667" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="156.425885" transform="rotate(-0 468.897273 156.425885)">5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="121.768" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="125.567219" transform="rotate(-0 468.897273 125.567219)">6</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mced93b7026" x="475.897273" y="90.909333" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="468.897273" y="94.708552" transform="rotate(-0 468.897273 94.708552)">7</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="456.455085" y="191.2" transform="rotate(-90 456.455085 191.2)">Fitted rear-plate x tilt (mrad)</text>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 475.897273 306.92 
+L 475.897273 75.48 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 475.897273 306.92 
+L 849.6 306.92 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="568.379261" y="157.612488" transform="rotate(-0 568.379261 157.612488)">4.641</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="757.118012" y="108.816934" transform="rotate(-0 757.118012 108.816934)">6.223</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle" x="662.748636" y="69.48" transform="rotate(-0 662.748636 69.48)">Restraint sensitivity: +34.07% tilt</text>
+   </g>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="428.4" y="17.899062" transform="rotate(-0 428.4 17.899062)">Carrier / bearing-support uncertainty | hypothetical unequal-load case</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="56.88" y="356.4" transform="rotate(-0 56.88 356.4)">Native CARRIER_*_M180 comparison. This is a boundary-condition experiment, not experimentally established bearing behaviour.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pea2e82463a">
+   <rect x="7.2" y="75.48" width="373.702727" height="231.44"/>
+  </clipPath>
+  <clipPath id="p6bc27863e7">
+   <rect x="475.897273" y="75.48" width="373.702727" height="231.44"/>
+  </clipPath>
+ </defs>
+</svg>

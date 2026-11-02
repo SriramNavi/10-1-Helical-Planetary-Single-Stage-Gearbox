@@ -1,0 +1,12 @@
+id,status,issue,evidence,consequence
+L01,OPEN,Qualified printed material / creep / temperature / anisotropy,E/nu/rho are explicitly hypothetical; no strength allowable,No capacity or safety-factor certification
+L02,OPEN,Actual bearing compliance and carrier moment support,Prior Phase3B unresolved; current rigid attachment screens,Component comparison cannot close gearbox load path
+L03,OPEN,Hex and cross-fastener contact / retention,Nominal throat retained but mouth land and flat area reduced,Size fit is not contact-strength equivalence
+L04,OPEN,Alternative-case peak convergence,One fine mesh per support/combined screen,No converged alternative-support rating
+L05,OPEN,Structural ranking under geometric tolerances,63 analytical scalar cases only; no qualified print process,No tolerance-robust preferred candidate
+L06,CONDITIONAL,Numerical stress refinement,Finite three-level candidate sequences and separate baseline evidence,Pass is not asymptotic singularity/contact proof
+L07,BLOCKED,Standard fine blend meshing,Native mesh return 8 at two tolerances; curvature substitute recorded,Do not mix mesher sequences or invent missing results
+L08,OPEN,Intermittent first-study solver startup,No-load native dialogs despite readback; successful distinct later studies,"Replay must check logs and result existence, not return code only"
+L09,OPEN,Actual duty and safe operating envelope,0.15 N m and scaled loads hypothetical; no testing,No physically validated or certified torque rating
+L10,CLOSED_WITH_PRIOR_APPROVED_EXCEPTION,Prior artifact preservation,PRESERVATION_CHECK.json; prior GEN/MAS authorization retained,No new preservation exception permitted
+L11,CONDITIONAL_DOCUMENTED_DEVIATION,Requested versus realized minimum mesh setting,Post-mesh MinElementSize=5 micrometres for all 13 curvature cases versus pre-mesh request h/2,Use actual protocol and local-control refinement; exact API overwrite behavior and smallest realized edge length unverified

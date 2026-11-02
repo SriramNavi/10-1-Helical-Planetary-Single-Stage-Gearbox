@@ -1,0 +1,62 @@
+[
+  {
+    "id": "P0",
+    "phase_relative_path": "00_Audit/PHASE_0_AUDIT.md",
+    "sha256": "8fd84b1765f675ffaa592541b98d7204c381478b212f6aa5ff8fa1b02a47758d"
+  },
+  {
+    "id": "P0-N",
+    "phase_relative_path": "00_Audit/NATIVE_READ_ONLY_AUDIT.json",
+    "sha256": "40275c512ba9bf4a6ec3eefeef9f225f376ee96ffd2a02cdc0b98a7ab2da5971"
+  },
+  {
+    "id": "P1",
+    "phase_relative_path": "02_Phases_1_2/PHASE_1_REQUIREMENTS.md",
+    "sha256": "2327abd2240258e953f9ee40d46af0d86e9fe3c3bd7b91b2763dd18bc514d02d"
+  },
+  {
+    "id": "P2",
+    "phase_relative_path": "02_Phases_1_2/PHASE_2_ANALYTICAL_REPORT.md",
+    "sha256": "27c5a14439af762eac57334f036ba5b7fe20ee6704b12b0a7f97be59c6829418"
+  },
+  {
+    "id": "P2-D",
+    "phase_relative_path": "02_Phases_1_2/results/summary.json",
+    "sha256": "1832b91a65df8aa9fcc368789ad98882a037bd8bbf5a2578afa303b48f3b9625"
+  },
+  {
+    "id": "P3",
+    "phase_relative_path": "03_Phase_3/PHASE_3_ENGINEERING_REPORT.md",
+    "sha256": "963f9a6cb89832694bba20a9d3e6cd07f9f447d1dfe89ce216733f7e6e899738"
+  },
+  {
+    "id": "P3-BC",
+    "phase_relative_path": "03_Phase_3/BOUNDARY_CONDITIONS.md",
+    "sha256": "8d14cfaa7b2277cd6b6ecec19069deb2cc2f75ca29f49c0046cabfaa83e37c99"
+  },
+  {
+    "id": "P3B",
+    "phase_relative_path": "Phase_3B/PHASE_3B_ENGINEERING_DECISION.md",
+    "sha256": "3f202c86d8318f7be3227a1ea9bd11f9edb57c3d7ba797b9ec8a34c44fcece71"
+  },
+  {
+    "id": "P3B-R",
+    "phase_relative_path": "Phase_3B/ANALYTICAL_NUMERICAL_RECONCILIATION.md",
+    "sha256": "e4b1be3d0cba4f8b706d42c318d3acf388990c7d30bc4b35149a1796ad5c2214"
+  },
+  {
+    "id": "P4A",
+    "phase_relative_path": "Phase_4A/ENGINEERING_SELECTION_REPORT.md",
+    "sha256": "e531d78c42ebdb22a4cde1cae22c28d5e79ced191fabec541f9f804d0bbcb94f"
+  },
+  {
+    "id": "P4A-D",
+    "phase_relative_path": "Phase_4A/PARAMETRIC_COMPARISON.csv",
+    "sha256": "28213a277041d668235148e3ba6633d16f8d44f08bea7b85835191b4291138b0"
+  },
+  {
+    "id": "P4A-M",
+    "phase_relative_path": "Phase_4A/CURVATURE_PROTOCOL_ACTUAL.json",
+    "sha256": "670c2ba0a37abdcbbdca46bde25f8037fb81595377f6985c6c0c876c4748b997"
+  }
+]

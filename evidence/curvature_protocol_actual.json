@@ -1,0 +1,93 @@
+{
+  "actual_post_mesh_MinElementSize_m": 5e-06,
+  "global_maximum_m": 0.0012,
+  "local_face_sizes_m": [
+    0.00016,
+    0.000125,
+    0.0001
+  ],
+  "quality": 1,
+  "circle_elements_setting": 8,
+  "growth_ratio": 1.5,
+  "records": [
+    {
+      "study": "A4F_Baseline_SUP_T_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_Baseline_TM_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_Baseline_T_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_C1_R020_SUP_T_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_C1_R020_TM_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_C1_R020_T_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_C1_R020_T_H125_CV",
+      "requested_minimum_m": 6.25e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.000125
+    },
+    {
+      "study": "A4F_C1_R020_T_H160_CV",
+      "requested_minimum_m": 8e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.00016
+    },
+    {
+      "study": "A4F_C2_R035_SUP_T_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_C2_R035_TM_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_C2_R035_T_H100_CV",
+      "requested_minimum_m": 5e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.0001
+    },
+    {
+      "study": "A4F_C2_R035_T_H125_CV",
+      "requested_minimum_m": 6.25e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.000125
+    },
+    {
+      "study": "A4F_C2_R035_T_H160_CV_ACTIVE",
+      "requested_minimum_m": 8e-05,
+      "post_mesh_MinElementSize_m": 5e-06,
+      "local_face_control_m": 0.00016
+    }
+  ],
+  "basis": "FINAL_NATIVE_MESH_READBACK.json; requested values remain in CURVATURE_PROTOCOL.json and study records"
+}

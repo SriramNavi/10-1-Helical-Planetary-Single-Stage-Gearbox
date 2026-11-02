@@ -1,0 +1,7 @@
+# Scoped licenses for the GB10-V2 public portfolio package
+
+- Public source code: MIT; see LICENSE-MIT.txt.
+- Engineering documentation and figures: CC BY 4.0; see LICENSE-CC-BY-4.0.md.
+- Exact scope and attribution: LICENSE_SCOPE.md and ATTRIBUTION.md.
+
+These are licenses for different parts of the package, not a choice to license every file under either license. Third-party materials retain their own licenses. Original native CAD, private FEA studies/solver archives and unpublished assets are excluded and remain all rights reserved.

@@ -1,0 +1,12 @@
+{
+  "mathematical_tests": 62,
+  "success": true,
+  "archived_analytical_checks": {
+    "orbit_m": true,
+    "root_sun_Pa": true,
+    "external_contact_Pa": true,
+    "output_core_equivalent_von_mises_Pa": true
+  },
+  "candidate_decision": "RETAIN_BASELINE",
+  "scope": "Software/equation/data replay only; no hardware testing or new FEA"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "01_assembly",
+    "title": "GB10-V2 | complete 74-leaf-component assembly",
+    "file": "figures/01_assembly.png",
+    "vector": null,
+    "caption": "Actual native part tessellation with frozen-audit component transforms. Six bearing envelopes; no bearing internals or physical build are implied.",
+    "source": "P0 native audit + Phase5 read-only tessellation/transform check",
+    "classification": "CAD_DERIVED"
+  },
+  {
+    "id": "02_exploded",
+    "title": "GB10-V2 | exploded component relationships",
+    "file": "figures/02_exploded.png",
+    "vector": null,
+    "caption": "Actual native part tessellation with frozen-audit component transforms. Exploded offsets affect only this illustration; CAD component positions remain unchanged.",
+    "source": "P0 native audit + Phase5 read-only tessellation/transform check",
+    "classification": "CAD_DERIVED"
+  },
+  {
+    "id": "03_section",
+    "title": "Transmission cross-section",
+    "file": "figures/03_section.png",
+    "vector": "figures/03_section.svg",
+    "caption": "Axial section of native tessellated surfaces at y=0 mm. 72 contour paths; no bearing internals fabricated. Full projections shown; the gearbox-body-envelope exclusion is separate.",
+    "source": "P0 native CAD geometry; Phase5 read-only extraction",
+    "classification": "CAD_DERIVED"
+  },
+  {
+    "id": "06_output_core",
+    "title": "Critical output-core geometry",
+    "file": "figures/06_output_core.png",
+    "vector": null,
+    "caption": "Native CAD-derived CarrierPlate/output-core representation. Dimensions from native cylindrical/planar readback. Colour is explanatory; not a stress map.",
+    "source": "P3 OUTPUT_GEOMETRY_READBACK; P4A GEOMETRY_VERIFICATION; Phase5 native tessellation",
+    "classification": "CAD_DERIVED"
+  },
+  {
+    "id": "04_kinematics",
+    "title": "Planetary kinematic diagram",
+    "file": "figures/04_kinematics.png",
+    "vector": "figures/04_kinematics.svg",
+    "caption": "Calculated pitch-circle construction using the verified tooth counts and documented helical inputs. Signed velocities are ideal kinematics, not dynamic validation.",
+    "source": "P0 tooth counts + P2 analytical equations/inputs",
+    "classification": "ANALYTICAL_SCHEMATIC"
+  },
+  {
+    "id": "05_load_path",
+    "title": "Mechanical load-path diagram",
+    "file": "figures/05_load_path.png",
+    "vector": "figures/05_load_path.svg",
+    "caption": "Independent force/moment equilibrium exposes a residual output support couple and a planet tipping couple despite zero net axial planet force. All loads are analytical hypotheses.",
+    "source": "P2 statics.py and PHASE_2_ANALYTICAL_REPORT",
+    "classification": "ANALYTICAL_SCHEMATIC"
+  },
+  {
+    "id": "07_mesh_refinement",
+    "title": "Mesh-refinement comparison",
+    "file": "figures/07_mesh_refinement.png",
+    "vector": "figures/07_mesh_refinement.svg",
+    "caption": "Seven-level Phase3B local study. Native surface nodes are shown as points, not invented element edges. The Phase3B mean patch differs from the retained common patch used in Phase4A.",
+    "source": "Phase3B CONVERGENCE_METRICS; REFINEMENT_CHANGES; native HOLE_SURFACE fields",
+    "classification": "NATIVE_FEA_EXPORT"
+  },
+  {
+    "id": "08_stress_contour",
+    "title": "Output-core stress contour",
+    "file": "figures/08_stress_contour.png",
+    "vector": "figures/08_stress_contour.svg",
+    "caption": "Native SolidWorks Simulation nodal stresses, displayed with linear interpolation on the unrolled cylindrical surface; this is not a native UI screenshot. Legend in MPa. No material failure threshold is assigned.",
+    "source": "Phase4A A4F_Baseline_T_H100_CV/STUDY_RECORD.json and HOLE_SURFACE.npz",
+    "classification": "NATIVE_FEA_EXPORT"
+  },
+  {
+    "id": "09_candidates",
+    "title": "Baseline versus candidate comparison",
+    "file": "figures/09_candidates.png",
+    "vector": "figures/09_candidates.svg",
+    "caption": "Matched native results: 15.1567,15.5914,15.6129 MPa. Energy compliance increases 0.187%/0.524%; these small changes are conditional proxies, not measured stiffness.",
+    "source": "Phase4A PARAMETRIC_COMPARISON and mesh-convergence evidence",
+    "classification": "NATIVE_FEA_EXPORT"
+  },
+  {
+    "id": "10_supports",
+    "title": "Bearing-support sensitivity illustration",
+    "file": "figures/10_supports.png",
+    "vector": "figures/10_supports.svg",
+    "caption": "Actual coarse native response: 4.6414 to 6.2227 mrad fitted x tilt (+34.07%). Constraint sketch is explanatory, not an actual bearing contact model.",
+    "source": "Phase3 CARRIER_BOUNDARY_RESPONSE; Phase3B reaction reconciliation",
+    "classification": "NATIVE_FEA_EXPORT"
+  }
+]

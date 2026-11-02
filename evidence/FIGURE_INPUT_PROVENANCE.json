@@ -1,0 +1,56 @@
+[
+  {
+    "figure_id": "01_assembly",
+    "source_phase_path": "00_Audit/NATIVE_READ_ONLY_AUDIT.json",
+    "sha256": "40275c512ba9bf4a6ec3eefeef9f225f376ee96ffd2a02cdc0b98a7ab2da5971",
+    "geometry_source": "Frozen-identity native CAD; Phase5 read-only tessellation and live transform agreement in private CAD_VISUAL_PROVENANCE.json"
+  },
+  {
+    "figure_id": "02_exploded",
+    "source_phase_path": "00_Audit/NATIVE_READ_ONLY_AUDIT.json",
+    "sha256": "40275c512ba9bf4a6ec3eefeef9f225f376ee96ffd2a02cdc0b98a7ab2da5971",
+    "geometry_source": "Frozen-identity native CAD; Phase5 read-only tessellation and live transform agreement in private CAD_VISUAL_PROVENANCE.json"
+  },
+  {
+    "figure_id": "03_section",
+    "source_phase_path": "00_Audit/NATIVE_READ_ONLY_AUDIT.json",
+    "sha256": "40275c512ba9bf4a6ec3eefeef9f225f376ee96ffd2a02cdc0b98a7ab2da5971",
+    "geometry_source": "Frozen-identity native CAD; Phase5 read-only tessellation and live transform agreement in private CAD_VISUAL_PROVENANCE.json"
+  },
+  {
+    "figure_id": "06_output_core",
+    "source_phase_path": "00_Audit/NATIVE_READ_ONLY_AUDIT.json",
+    "sha256": "40275c512ba9bf4a6ec3eefeef9f225f376ee96ffd2a02cdc0b98a7ab2da5971",
+    "geometry_source": "Frozen-identity native CAD; Phase5 read-only tessellation and live transform agreement in private CAD_VISUAL_PROVENANCE.json"
+  },
+  {
+    "figure_id": "04_kinematics",
+    "source_phase_path": "02_Phases_1_2/inputs/parameters.json",
+    "sha256": "94d3d0e90e28e7b011474b127c09e16a849a02b0c68cf04dc4fe30ed06347452"
+  },
+  {
+    "figure_id": "05_load_path",
+    "source_phase_path": "02_Phases_1_2/results/summary.json",
+    "sha256": "1832b91a65df8aa9fcc368789ad98882a037bd8bbf5a2578afa303b48f3b9625"
+  },
+  {
+    "figure_id": "07_mesh_refinement",
+    "source_phase_path": "Phase_3B/CONVERGENCE_METRICS.csv",
+    "sha256": "078086f41f7f94441c84d14d3343139d877e401701c8a2352bdd42445798a491"
+  },
+  {
+    "figure_id": "08_stress_contour",
+    "source_phase_path": "Phase_4A/FEA_Results/A4F_Baseline_T_H100_CV/HOLE_SURFACE.npz",
+    "sha256": "8cceb319a78ce008c45d6689372891064c83b21855eb5a637cff942a1a4fc4ad"
+  },
+  {
+    "figure_id": "09_candidates",
+    "source_phase_path": "Phase_4A/PARAMETRIC_COMPARISON.csv",
+    "sha256": "28213a277041d668235148e3ba6633d16f8d44f08bea7b85835191b4291138b0"
+  },
+  {
+    "figure_id": "10_supports",
+    "source_phase_path": "03_Phase_3/CARRIER_BOUNDARY_RESPONSE.csv",
+    "sha256": "ca6b5b5b1c674f3bbe93ba51e62b80d77febac93a148ca79e45c6d0f89e393c6"
+  }
+]

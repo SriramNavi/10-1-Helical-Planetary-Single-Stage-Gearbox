@@ -1,0 +1,64 @@
+{
+  "status": "OWNER_APPROVED_PREPUBLICATION_VERIFICATION",
+  "case_sections": 16,
+  "figures": 10,
+  "public_mathematical_tests": 62,
+  "archived_reference_checks": 4,
+  "new_native_FEA_solves_in_Phase5": 0,
+  "protected_prior_files": 2548,
+  "pdfs": [
+    {
+      "file": "docs/FULL_ENGINEERING_REPORT.pdf",
+      "pages": 19,
+      "text_characters": 40465,
+      "outside_page_text": [],
+      "required_values_present": true,
+      "all_pages_rendered": true
+    },
+    {
+      "file": "docs/TECHNICAL_SUMMARY.pdf",
+      "pages": 1,
+      "text_characters": 3472,
+      "outside_page_text": [],
+      "required_values_present": true,
+      "all_pages_rendered": true
+    }
+  ],
+  "browser_viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "broken_local_links": [],
+  "proprietary_native_files_in_public_package": [],
+  "private_path_or_secret_patterns": [],
+  "public_release_blockers": [],
+  "reproducibility_limitation": "Portable public equations and selected native data are reproducible; complete native FEA needs retained private CAD/CWR and licensed SolidWorks.",
+  "publication_actions_performed": [],
+  "cleanup_client_date": "2026-11-02",
+  "cleanup_verification": "Final_Release_Preparation/Verification/SUMMARY.json (retained locally)",
+  "candidate_release_id": "GB10-V2-PORTFOLIO-V1.0",
+  "freeze_status": "AUTHORIZED_AFTER_REMOTE_VERIFICATION",
+  "publication_destination": "https://github.com/SriramNavi/10-1-Helical-Planetary-Single-Stage-Gearbox",
+  "authorization": {
+    "owner_rights_confirmed": true,
+    "source_code": "MIT",
+    "documentation_figures": "CC-BY-4.0",
+    "repository": "https://github.com/SriramNavi/10-1-Helical-Planetary-Single-Stage-Gearbox",
+    "client_date": "2026-11-02",
+    "private_assets": "Excluded; all rights reserved",
+    "live_website_authorized": false
+  },
+  "release_identifier": "GB10-V2-PORTFOLIO-V1.0",
+  "release_verification": {
+    "tests": 62,
+    "status": "PASS",
+    "engineering_figures_and_numeric_inputs_unchanged": true,
+    "code_changes": "Approved MIT notices only"
+  }
+}

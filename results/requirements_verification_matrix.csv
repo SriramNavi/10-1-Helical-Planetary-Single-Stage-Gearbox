@@ -1,0 +1,24 @@
+id,classification,requirement,evidence,status,source
+R01,Verified baseline,Counts/topology,12/48/108; 3 planets; fixed ring,PASS_NATIVE_OBSERVATION,P0-N
+R02,Derived,Reduction ratio,10:1 ideal fixed-ring relation,PASS_ANALYTICAL,P2; calculations/tests
+R03,Verified baseline,Proper static diameter <=80 mm,79.681688 mm; pose/exclusions bounded,PASS_STATIC_ONLY,P0-N
+R04,Verified baseline,Proper axial thickness <=40 mm,39.5 mm; full projections 59 mm,PASS_STATIC_ONLY,P0-N
+R05,Verified baseline,Six bearing envelopes,7 x 19 x 6 mm; functions distinct,PASS_NOMINAL_ONLY,P0; P3-BC
+R06,Unknown,Coincident torque-speed-duration/life,Not established,UNVERIFIED,P1; docs/LIMITATIONS.md
+R07,Unknown,Qualified printed properties/allowables,E/nu/rho used only as hypotheses,UNVERIFIED,P1; P3; P4A
+R08,Derived,Force/torque/moment conservation,"Explicit branches, reference points and residuals",PASS_MODEL_INVARIANTS,P2; P3B-R
+R09,Derived,Output equilibrium in exported fields,P3:9; P3B:11 incl reuse; P4A:17 incl reuse,PASS_EXPORTED_FIELDS_ONLY,results/phase4a_structural_results.csv
+R10,Provisional,Output peak/probe local refinement,Final P3B peak .24%; mean .22%; probe 1.48%,CONDITIONAL_PASS,results/phase3b_refinement_changes.csv
+R11,Unknown,Bearing finite-width moment load path,Point model incomplete; actual compliance unknown,OPEN,P2; P3B; figures/10_supports.png
+R12,Provisional,Support robustness,34.07% carrier x-tilt sensitivity,CONDITIONAL_MODEL_COMPARISON,results/carrier_boundary_response.csv
+R13,Provisional,Modified peak reduction >=5%,R0.20 +2.868%; R0.35 +3.010%,FAIL_IMPROVEMENT_GATE_BASELINE_RETAINED,results/candidate_comparison.csv
+R14,Baseline/derived,Retain constrained candidate dimensions,Throat/journal/hex envelope retained; land reduced,PASS_NOMINAL_CONTACT_UNVERIFIED,P4A
+R15,Provisional,Compliance penalty <=2%,Energy penalties .187% / .524%,PASS_CONDITIONAL_PROXY,results/candidate_comparison.csv
+R16,Provisional,Mass increase <=1%,Assumed-density mass decreases <.006%,PASS_NOMINAL_MODEL,results/candidate_comparison.csv
+R17,Derived,Document realized mesh settings,Post-mesh minimum .005 mm versus requested h/2,DECLARED_DEVIATION_RECONCILED,evidence/curvature_protocol_actual.json
+R18,Unknown,Tolerance-dependent structural ranking,63 scalar geometry cases; no tolerance FEA,UNVERIFIED,P4A
+R19,Unknown,Complete backlash / stiffness,Mesh-only deadband and component proxies only,UNVERIFIED_SYSTEM,P1; P2; P3B-R
+R20,Unknown,Measured efficiency / continuous thermal duty,Loss/heat parameters unqualified,UNVERIFIED,P2; docs/CALCULATION_METHODOLOGY.md
+R21,Unknown,Physical validation / certified capacity,No hardware tests; no capacity rating,NOT_ESTABLISHED,docs/LIMITATIONS.md
+R22,Evidence integrity,Preserve earlier evidence,Approved GEN/MAS exception retained; 2548 files guarded,PASS_NO_NEW_EXCEPTION,Private Phase5 Audit/PRESERVATION_CHECK.json
+R23,Release gate,Public ownership/license approval,Owner confirmed distribution rights; approved MIT code / CC BY 4.0 documentation and figures,APPROVED_FOR_PUBLIC_PACKAGE,LICENSE_STATUS.md
